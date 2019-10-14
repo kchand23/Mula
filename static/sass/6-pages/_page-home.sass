@@ -1,0 +1,170 @@
+
+html, body
+
+  position: relative
+  overflow: auto
+  @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap')
+
+body
+  height: 100%
+  justify-content: center
+  align-items: center
+  background-color: #e1e8f4
+  overflow-x: hidden!important
+  margin-top: 0!important
+section
+  width: 100%
+  overflow-x: hidden!important
+
+#heading
+  width: 90%
+  // zoom: 95%
+
+
+  article
+    width: 80%
+    margin: auto
+  p
+    font-size: 42px
+  @media only screen and (max-width: 800px)
+    h1
+      font-size: 68px!important
+    p
+      font-size: 26px
+
+
+  li
+    img
+      height: 40px
+      width: 40px
+  // @media only screen (max-width: 800px)
+    // margin: -10
+
+
+#hello
+  font-color: blue!important
+  p
+    font-size: 26px
+
+
+.landing_page_option
+  // width: 167px
+  height: 65px!important
+  font-size: 26px!important
+  padding: 10px 20px!important
+  // font-weight: normal
+  background-color: $teal!important
+  color: white!important
+  border: none!important
+  margin-bottom: 10px
+  width: 80vw!important
+
+.login_buttons
+  display: inline-grid
+
+.savings
+  font-size: 68px
+
+.set-size
+  font-size: 15em
+
+.charts-container:after
+  clear: both
+  content: ""
+  display: table
+  margin-bottom: 45px
+
+.pie-wrapper
+  height: 1em
+  width: 1em
+  margin: 15px
+  position: relative
+  .pie
+    height: 100%
+    width: 100%
+    clip: rect(0, 1em, 1em, 0.5em)
+    left: 0
+    position: absolute
+    top: 0
+    .half-circle
+      height: 100%
+      width: 100%
+      border: 0.1em solid #3498db
+      border-radius: 50%
+      clip: rect(0, 0.5em, 1em, 0)
+      left: 0
+      position: absolute
+      top: 0
+  .label
+    background: #34495e
+    border-radius: 50%
+    bottom: 0.4em
+    color: #1665a7
+    cursor: default
+    display: block
+    font-size: 0.25em
+    left: 0.4em
+    line-height: 2.6em
+    position: absolute
+    right: 0.4em
+    text-align: center
+    top: 0.4em
+    .smaller
+      color: #bdc3c7
+      font-size: .45em
+      padding-bottom: 20px
+      vertical-align: super
+
+  .shadow
+    height: 100%
+    width: 100%
+    border: 0.1em solid #bdc3c7
+    border-radius: 50%
+
+.pie-wrapper.style-2
+  .label
+    background: none
+    color: #1665a7
+    .smaller
+      color: #1665a7
+
+
+.pie-wrapper.progress-45
+  .pie
+    .right-side
+      display: none
+    .half-circle
+      border-color: #1665a7
+    .left-side
+      transition: 5s ease-in-out
+.anim
+  transform: rotate(1deg)
+
+.transaction
+  border-bottom: 2px solid
+  width: 90vw!important
+  text-align: center
+
+.date
+  border-bottom: 1.5px solid
+  width: 90vw!important
+
+.transactionItem
+  border-bottom: 1px solid
+  width: 90vw!important
+  display: inline-block
+
+.purchase
+  display: flex
+  float: left
+  margin-top: 7.5px
+  .location
+    margin-right: 5px
+
+.round
+  float: right
+  font-size: 24px
+
+.logout
+  float: right
+  margin-top: 3.2em

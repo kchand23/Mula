@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flask Starter Project
 Basic template for a Flask web site.
 
@@ -7,3 +8,7 @@ Basic template for a Flask web site.
 
 
 
+=======
+# Mula
+Web application developed using PayPal API to help users manage their finances automatically and help them be prepared during crisis
+>>>>>>> 06681353b6d3be527f46709a7c9c0185c2602910
